@@ -5,6 +5,8 @@ This is the code for the paper ["A Latent Variable Model Approach to PMI-based W
 ## Get Started
 After cloning the code, run
 
+May need to do sed -i 's/\r//' setup.sh (https://stackoverflow.com/questions/2920416/configure-bin-shm-bad-interpreter)
+
 ```
 	./setup.sh
 	cd examples
